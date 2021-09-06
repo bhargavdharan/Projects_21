@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 9px;
+  box-sizing: border-box;
+}
+body {
+  background: lightgreen;
+  text-align: center;
+}
+
+.container {
+  background: black;
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 12px 10px 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.screen-body-title {
+  float: left;
+  background: black;
+  font-family: cursive;
+  height: 48vh;
+  border-radius: 5px;
+}
+
+.screen-title {
+  border-left: 5px solid purple;
+  color: white;
+  margin-top: 135px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.screen-body-item {
+  float: right;
+  margin-left: 5px;
+  padding-left: 5px;
+  background: black;
+  width: 550px;
+  color: white;
+  border: 5px solid green;
+  border-radius: 6px;
+}
+
+.app-form {
+  background: lightblue;
+}
+
+.app-form-group {
+  background: rgb(80, 99, 89);
+  /* border: 2px solid black; */
+  margin: 15px;
+  padding: 25px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.app-form-control {
+  margin-left: 5px;
+  padding: 5px;
+  text-align: center;
+  background: yellow;
+  border-style: none;
+}
+
+.app-form-button {
+  background: black;
+  color: white;
+  border: 5px solid white;
+  border-radius: 5px;
+  text-align: center;
+  border-style: none;
+  cursor: pointer;
+}
+
+.showdata {
+  background: black;
+  box-sizing: border-box;
+  font-size:30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  color: white;
+  margin-top: 50px;
+  padding: 80px;
+}
